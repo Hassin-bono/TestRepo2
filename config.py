@@ -1,4 +1,4 @@
-def get_config(key):
+def get_config():
     settings = {
         "debug": True,
         "host": "localhost",
