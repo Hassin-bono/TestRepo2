@@ -1,3 +1,4 @@
+from config import get_config
 def start_server():
     host = get_config("host")
     port = get_config("port")
