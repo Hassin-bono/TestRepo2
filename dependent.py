@@ -1,4 +1,4 @@
-from users import get_user
+
 
 
 def print_user_profile(user_id: int):
