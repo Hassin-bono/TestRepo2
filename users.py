@@ -1,13 +1,8 @@
-def get_user(id, include_metadata=True):
-    user = {
-        "id": id,
-        "name": "Alice",
-    }
+# users.py
 
-    if include_metadata:
-        user["metadata"] = {
-            "created_at": "2026-07-24T12:00:00Z",
-            "source": "database",
-        }
-
-    return user
+def get_user_details(user_id: int):
+    """
+    Fetch user details from database.
+    Updated signature: 'include_metadata' parameter removed.
+    """
+    return {"id": user_id, "name": "Jane Doe"}
